@@ -1,3 +1,95 @@
-body {
-    background-color: lightblue;
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: lightyellow;
+}
+.LI-profile-badge{
+    height: 50px;
+    width: 50px;
+}
+.banner {
+    /* The image used */
+    background-image: url("../images/seattle.jpg");
+    /* Full height */
+    height: 25%; 
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    overflow: hidden;
+    background-size: cover;
+}
+h1{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.portrait{
+    position: absolute;
+    top: 130px;
+        background-position: center;
+
+    background-image: url("../images/stephen.jpg");
+    height: 20%; 
+    width: 15%;
+    /* Center and scale the image nicely */
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    overflow: hidden;
+    background-size: cover;
+}
+footer{
+    display: table;
+    text-align: center;
+   
+    margin-left: auto;
+    position: absolute;
+    bottom: 0;
+}
+img.githubBtn{
+    border:1px solid #021a40; 
+    background-color: white; 
+    height: 25px;
+    position: relative; 
+    border-radius: 200px;
+    top: 10px;
+    float: left;
+}
+img.linkedinBtn{
+    height: 45px;
+    float: right;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: #4CAF50;}
+
+ul.topnav li.right {float: right+;}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
 }
