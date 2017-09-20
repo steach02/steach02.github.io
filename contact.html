@@ -6,16 +6,25 @@
         <title>Stephen's Profile Site</title>
         <meta name="description" content="A web based profile for Stephen Teacher">
         <link rel="stylesheet" type="text/css" href="./css/Style.css">
+        <link rel="stylesheet" type="text/css" href="./css/contactStyle.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="./css/cardStyle.css">
     </head>     
     <body>
-        <nav>
-            <ul class="topnav">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="resume.html">Resume</a></li>
-                <li><a class="active">Contact</a></li>
-            </ul>  
-        </nav>
-        <div class="banner"></div>
+        <!-- this is a card profile-->
+        <div class="cardwrapper">
+            <div class="card">
+              <img src="images/stephen.jpg" alt="John" style="width:100%">
+              <h1>Stephen Teacher</h1>
+              <p class="title">Junior Developer</p>
+              <p>North Seattle College</p>
+              <a href="https://github.com/steach02"><i class="fa fa-github"></i></a> 
+              <a href="https://www.linkedin.com/in/stephenjteacher/"><i class="fa fa-linkedin"></i></a> 
+              <button onclick="window.location.href='resume.html'">Resume</button>
+              <button onclick="window.location.href='index.html'">Home</button>
+            </div>
+        </div>    
         <div class="container">
             <form action="MAILTO:stephenjteacher@gmail.com" method="post" enctype="text/plain">
                 <label for="fname">First Name</label>
@@ -27,11 +36,5 @@
                 <input type="submit" value="Submit">
             </form>
         </div>
-        <footer>
-            <div class="wrapper">
-                <img class="githubBtn" src="images/gitBtn.png"  onclick = "window.location.href='https://github.com/steach02'">
-                <img class="linkedinBtn"src="images/linkedinBtn.png" onclick = "window.location.href='https://www.linkedin.com/in/stephenjteacher/'">
-            </div>  
-        </footer>
     </body>
 </html>
