@@ -1,216 +1,73 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible">
-        <title>Stephen's Profile Site</title>
-        <meta name="description" content="A web based profile for Stephen Teacher">
-        <link rel="stylesheet" type="text/css" href="./css/Style.css">
-        <link rel="stylesheet" type="text/css" href="./css/widgetsStyle.css">
-        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="./css/cardStyle.css">
-
-    </head> 
-    <body>
-        <div class="mottoWrapper">
-                <h1 class="mottoText">&emsp;&emsp;"I belive programming is not simply the ability to learn new syntax but also the passion for problem solving." Stephen Teacher</h1>
-        </div>
-        <!-- this is a card profile-->
-        <div class="cardwrapper">
-            <div class="card">
-                <img src="images/stephen.jpg" alt="John" style="width:80%">
-                <h1>Stephen Teacher</h1>
-                <p class="title">Junior Developer</p>
-                <p>North Seattle College</p>
-                <a href="https://github.com/steach02"><i class="fa fa-github"></i></a> 
-                <a href="https://www.linkedin.com/in/stephenjteacher/"><i class="fa fa-linkedin"></i></a> 
-                <button onclick="window.location.href='resume.html'">Resume</button>
-                <button onclick="window.location.href='contact.html'">Contact</button>
-            </div>
-        </div>    
-        <!-- this is where the banner,profile picture, and motto are-->
-            <div class="widgetswrapper">
-                <!-- this will hold all of the icons for the popup modals -->
-                <div class="flex-container" >   
-                    <div clas="photo-container" onclick="document.getElementById('id01').style.display='block'">
-                        <div class="photo">
-                            <img class="thumb"src="images/fib.png" alt="" >
-                            <div class="photo-overlay">
-                                <h3 class="white-head">Click To View</h3>
-                                <p>My Fibonacci algorythm!</p>
-                            </div>
-                        </div>
-                    </div>    
-                    <div clas="photo-container" onclick="document.getElementById('id02').style.display='block'">
-                        <div class="photo">
-                            <img class="thumb"src="images/fizzbuzz.png" alt="">
-                            <div class="photo-overlay">
-                                <h3 class="white-head">Click to View</h3>
-                                <p>My FizzBuzz algorythm!</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div clas="photo-container" onclick="document.getElementById('id03').style.display='block'">
-                    <div class="photo">
-                            <img class="thumb"src="images/kmeans.png" alt="">
-                            <div class="photo-overlay">
-                                <h3 class="white-head">Click to View</h3>
-                                <p>My Kmeans algorythm!</p>
-                            </div>
-                        </div>
-                    </div>        
-                    <div clas="photo-container">
-                        <div class="photo">
-                            <img class="thumb"src="images/comingsoon.jpg" alt="">
-                            <div class="photo-overlay">
-                                <h3 class="white-head">Coming Soon</h3>
-                                <p>My Interger swap!</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div clas="photo-container">
-                        <div class="photo">
-                            <img class="thumb"src="images/binarysearch.png" alt="" >
-                            <div class="photo-overlay">
-                                <h3 class="white-head">Click To View</h3>
-                                <p>My Binary search! </p>
-                            </div>
-                        </div>
-                    </div>    
-                    <div clas="photo-container">
-                        <div class="photo">
-                            <img class="thumb"src="images/comingsoon.jpg" alt="">
-                            <div class="photo-overlay">
-                                <h3 class="white-head">Click to View</h3>
-                                <p>My Breadth First and Depth First search!</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div clas="photo-container">
-                    <div class="photo">
-                            <img class="thumb"src="images/comingsoon.jpg" alt="">
-                            <div class="photo-overlay">
-                                <h3 class="white-head">Coming Soon</h3>
-                                <p>My Linear Search!</p>
-                            </div>
-                        </div>
-                    </div>        
-                    <div clas="photo-container">
-                        <div class="photo">
-                            <img class="thumb"src="images/comingsoon.jpg" alt="">
-                            <div class="photo-overlay">
-                                <h3 class="white-head">Coming Soon</h3>
-                                <p>My Genetic Search!</p>
-                            </div>
-                        </div>
-                    </div>  
-                    <div clas="photo-container">
-                        <div class="photo">
-                            <img class="thumb"src="images/comingsoon.jpg" alt="" >
-                            <div class="photo-overlay">
-                                <h3 class="white-head">Click To View</h3>
-                                <p>My Bubble Sort!</p>
-                            </div>
-                        </div>
-                    </div>    
-                    <div clas="photo-container">
-                        <div class="photo">
-                            <img class="thumb"src="images/comingsoon.jpg" alt="">
-                            <div class="photo-overlay">
-                                <h3 class="white-head">Click to View</h3>
-                                <p>My Merg Sort!</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div clas="photo-container">
-                    <div class="photo">
-                            <img class="thumb"src="images/comingsoon.jpg" alt="">
-                            <div class="photo-overlay">
-                                <h3 class="white-head">Click to view</h3>
-                                <p>My Radix/Bucket sort!</p>
-                            </div>
-                        </div>
-                    </div>        
-                    <div clas="photo-container">
-                        <div class="photo">
-                            <img class="thumb"src="images/comingsoon.jpg" alt="">
-                            <div class="photo-overlay">
-                                <h3 class="white-head">Coming Soon</h3>
-                                <p>My Selection sort!</p>
-                            </div>
-                        </div>
-                    </div>  
-                    <div clas="photo-container">
-                        <div class="photo">
-                            <img class="thumb"src="images/uwohc.jpg" alt="" >
-                            <div class="photo-overlay">
-                                <h3 class="white-head">Click To View</h3>
-                                <p>My work with the UWOHC!</p>
-                            </div>
-                        </div>
-                    </div>    
-                    <div clas="photo-container">
-                        <div class="photo">
-                            <img class="thumb"src="images/theTableTimes.png" alt="">
-                            <div class="photo-overlay">
-                                <h3 class="white-head">Coming Soon</h3>
-                                <p>My work TheTableTimes!</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div clas="photo-container">
-                    <div class="photo">
-                            <img class="thumb"src="images/comingsoon.jpg" alt="">
-                            <div class="photo-overlay">
-                                <h3 class="white-head">Coming Soon</h3>
-                                <p>My OOP car lot demo!</p>
-                            </div>
-                        </div>
-                    </div>        
-                    <div clas="photo-container">
-                        <div class="photo">
-                            <img class="thumb"src="images/comingsoon.jpg" alt="">
-                            <div class="photo-overlay">
-                                <h3 class="white-head">Coming Soon</h3>
-                                <p>My OOP farm demo!</p>
-                            </div>
-                        </div>
-                    </div> 
-                </div> 
-            </div> 
-        <!-- this is where we add the popup modals-->
-        <modals>
-            <div id="id01" class="w3-modal">
-                <div class="w3-modal-content">
-                    <header class="w3-container w3-teal"> 
-                        <span onclick="document.getElementById('id01').style.display='none'" 
-                        class="w3-button w3-display-topright">&times;</span>
-                        <h2>Fibonacci Algorithm</h2>
-                    </header>
-                    <embed class="pdf" src="FibonacciPdf.pdf" type='application/pdf'>
-                </div>
-            </div>
-            <div id="id02" class="w3-modal">
-                <div class="w3-modal-content">
-                    <header class="w3-container w3-teal"> 
-                        <span onclick="document.getElementById('id02').style.display='none'" 
-                        class="w3-button w3-display-topright">&times;</span>
-                        <h2>Fizz Buzz</h2>
-                    </header>
-                    <embed class="pdf" src="FizzBuzzPDF.pdf" type='application/pdf'>
-                </div>
-            </div>
-            <div id="id03" class="w3-modal">
-                <div class="w3-modal-content">
-                    <header class="w3-container w3-teal"> 
-                        <span onclick="document.getElementById('id03').style.display='none'" 
-                        class="w3-button w3-display-topright">&times;</span>
-                        <h2>KMeans</h2>
-                    </header>
-                    <embed class="pdf" src="KmeansPDF.pdf" type='application/pdf'>
-                </div>
-            </div>
-        </modals>
-    </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital AdzVantage - Coming Soon</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #ccbf92;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 50px auto;
+      text-align: center;
+      color: #ffffff;
+    }
+    h1 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+    .btn-subscribe {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #ffffff;
+      color: #ccbf92;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 16px;
+      transition: background-color 0.3s ease;
+    }
+    .btn-subscribe:hover {
+      background-color: #e5e5e5;
+    }
+    .footer {
+      margin-top: 50px;
+      font-size: 14px;
+    }
+    .footer a {
+      color: #ffffff;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Digital AdzVantage</h1>
+    <p>Empowering Your Digital Advertising Strategies</p>
+    <p>Welcome to Digital AdzVantage! We're working hard behind the scenes to bring you innovative solutions that will revolutionize your digital advertising efforts. Stay tuned for exciting updates and announcements coming soon!</p>
+    <p><strong>What We Offer</strong></p>
+    <ul>
+      <li>Targeted Advertising Campaigns</li>
+      <li>Data-Driven Insights</li>
+      <li>Creative Content Development</li>
+      <li>Performance Optimization</li>
+    </ul>
+    <p><strong>Stay Connected</strong></p>
+    <a href="#" class="btn-subscribe">Subscribe Now</a>
+  </div>
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2024 Digital AdzVantage. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a> | <a href="#">Contact Us</a></p>
+      <p>Follow us on: <a href="#" target="_blank">[social media icons]</a></p>
+    </div>
+  </footer>
+</body>
 </html>
